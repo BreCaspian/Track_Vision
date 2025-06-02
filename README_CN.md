@@ -53,7 +53,7 @@ sudo apt update
 sudo apt install build-essential cmake git libopencv-dev
 
 # 克隆仓库并构建
-git clone https://github.com/yourusername/blind-track-vision.git
+git clone https://github.com/BreCaspian/blind-track-vision.git
 cd blind-track-vision
 mkdir build && cd build
 
