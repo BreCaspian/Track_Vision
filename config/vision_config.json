@@ -1,0 +1,32 @@
+{
+  "camera.id": 0,
+  "camera.width": 640,
+  "camera.height": 480,
+  "camera.fps": 30,
+  "camera.mode": "standard",
+  "camera.depth_mode": "PERFORMANCE",
+  
+  "detector.threshold": 127,
+  "detector.roi_y_start": 0.6,
+  "detector.roi_height": 0.3,
+  "detector.roi_width": 0.5,
+  "detector.canny_low": 50,
+  "detector.canny_high": 150,
+  "detector.hough_threshold": 50,
+  "detector.min_line_length": 30,
+  "detector.max_line_gap": 10,
+  "detector.obstacle_contour_threshold": 5,
+  
+  "avoidance.preferred_direction": "right",
+  "avoidance.turn_time_ms": 500,
+  "avoidance.forward_time_ms": 800,
+  "avoidance.check_interval_ms": 100,
+  "avoidance.min_line_detection_frames": 3,
+  "avoidance.obstacle_distance_threshold": 1.0,
+  "avoidance.clear_path_threshold": 1.5,
+  
+  "serial.port": "COM3",
+  "serial.baudrate": 115200,
+  
+  "debug.show_view": true
+} 
